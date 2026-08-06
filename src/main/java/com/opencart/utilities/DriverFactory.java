@@ -2,27 +2,26 @@ package com.opencart.utilities;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.chrome.ChromeOptions;
 
 public class DriverFactory {
 
-	WebDriver driver;
+    public static WebDriver getDriver() throws Exception {
 
-	public WebDriver launchBrowser() throws Exception {
+        ConfigReader config = new ConfigReader();
 
-		ConfigReader config = new ConfigReader();
+        String browser = config.getProperty("browser");
 
-		String browser = config.getProperty("browser");
+        WebDriver driver = null;
 
-		if (browser.equalsIgnoreCase("chrome")) {
+        if (browser.equalsIgnoreCase("chrome")) {
 
-			driver = new ChromeDriver();
+            ChromeOptions options = new ChromeOptions();
+            options.addArguments("--start-maximized");
 
-		}
+            driver = new ChromeDriver(options);
+        }
 
-		driver.manage().window().maximize();
-
-		return driver;
-
-	}
-
+        return driver;
+    }
 }
