@@ -18,6 +18,8 @@ public class DriverFactory {
 
             ChromeOptions options = new ChromeOptions();
             options.addArguments("--start-maximized");
+            options.setExperimentalOption("prefs",
+            java.util.Map.of("autofill.profile_enabled", false));
 
             driver = new ChromeDriver(options);
         }

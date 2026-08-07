@@ -62,6 +62,10 @@ public class RegisterPage {
     public void clickContinue() {
         driver.findElement(btnContinue).click();
     }
+    
+    public String getPasswordMismatchError() {
+        return driver.findElement(By.xpath("//input[@name='confirm']/following-sibling::div")).getText();
+    }
 }
 	
 	
