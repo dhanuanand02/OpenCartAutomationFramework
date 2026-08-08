@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [OpenCart Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="OpenCart Tests(failed)">
+    <classes>
+      <class name="com.opencart.testcases.TC005_InvalidPasswordLoginTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setup"/>
+          <include name="VerifyLoginWithInvalidPassword"/>
+        </methods>
+      </class> <!-- com.opencart.testcases.TC005_InvalidPasswordLoginTest -->
+      <class name="com.opencart.testcases.TC004_CompletePurchaseFlow">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setup"/>
+          <include name="VerifyCompletePurchaseFlow"/>
+        </methods>
+      </class> <!-- com.opencart.testcases.TC004_CompletePurchaseFlow -->
+      <class name="com.opencart.testcases.TC001_ValidRegistrationTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setup"/>
+          <include name="verifyValidRegistration"/>
+        </methods>
+      </class> <!-- com.opencart.testcases.TC001_ValidRegistrationTest -->
+    </classes>
+  </test> <!-- OpenCart Tests(failed) -->
+</suite> <!-- Failed suite [OpenCart Suite] -->

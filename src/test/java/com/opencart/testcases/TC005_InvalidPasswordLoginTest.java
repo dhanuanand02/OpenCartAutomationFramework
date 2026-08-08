@@ -7,7 +7,7 @@ import com.opencart.base.BaseClass;
 import com.opencart.pages.LoginPage;
 
 
-public class TC005_InvalidLoginTest extends BaseClass {
+public class TC005_InvalidPasswordLoginTest extends BaseClass {
 	
 	@Test
 	public void VerifyLoginWithInvalidPassword() {

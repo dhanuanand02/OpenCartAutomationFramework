@@ -20,7 +20,7 @@ public class TC004_CompletePurchaseFlow extends BaseClass {
         lp.clickMyAccount();
         lp.ClickLogin();
 
-        lp.EnterUserMailId("dhaanu@gmail.com");
+        lp.EnterUserMailId("ananddd@gmail.com");
         lp.EnterUserPassword("Test@123");
 
         lp.ClickLoginBtn();
@@ -33,7 +33,7 @@ public class TC004_CompletePurchaseFlow extends BaseClass {
 
 //  BILLING ADDRESS
 
-        checkout.selectNewAddress();
+//        checkout.selectNewAddress();
 
         checkout.enterBillingDetails(
                 "Dhanu",

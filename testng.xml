@@ -13,10 +13,12 @@
 		</groups> -->
 		
         <classes>
-			<class name="com.opencart.testcases.TC001_UserTest"/>
+		
+            <class name="com.opencart.testcases.TC001_ValidRegistrationTest"/>
             <class name="com.opencart.testcases.TC002_InvalidRegistrationTest"/>
-            <class name="com.opencart.testcases.TC003_UserLoginTest"/>
-            <class name="com.opencart.testcases.TC004_SearchAndAddToCartTest"/>
+            <class name="com.opencart.testcases.TC003_ValidLoginTest"/>
+            <class name="com.opencart.testcases.TC004_CompletePurchaseFlow"/>
+            <class name="com.opencart.testcases.TC005_InvalidPasswordLoginTest"/>
 			
         </classes>
     </test>
