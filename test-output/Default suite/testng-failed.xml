@@ -3,13 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.opencart.testcases.TC004_verifyCompletePurchaseFlow">
+      <class name="com.opencart.testcases.TC005_InvalidLoginTest">
         <methods>
           <include name="tearDown"/>
           <include name="setup"/>
-          <include name="placeOrderTest"/>
+          <include name="VerifyLoginWithInvalidPassword"/>
         </methods>
-      </class> <!-- com.opencart.testcases.TC004_verifyCompletePurchaseFlow -->
+      </class> <!-- com.opencart.testcases.TC005_InvalidLoginTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

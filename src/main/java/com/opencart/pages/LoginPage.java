@@ -17,6 +17,7 @@ public class LoginPage {
 	By txtUserMail = By.id("input-email");
 	By txtUserPassword = By.id("input-password");
 	By loginBtn = By.xpath("//input[@type='submit']");
+	By errorMessage = By.xpath("//div[contains(@class,'alert-danger')]");
 	
 	public void clickMyAccount() {
         driver.findElement(lnkMyAccount).click();
@@ -39,6 +40,10 @@ public class LoginPage {
 	
 	public void ClickLoginBtn() {
 		driver.findElement(loginBtn).click();
+	}
+	
+	public String getErrorMessage() {
+		return driver.findElement(errorMessage).getText();
 	}
 
 }

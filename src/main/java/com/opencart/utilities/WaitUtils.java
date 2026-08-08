@@ -24,4 +24,7 @@ public class WaitUtils {
     public void waitForVisible(By locator) {
         wait.until(ExpectedConditions.visibilityOfElementLocated(locator));
     }
+    
+   
+    
 }

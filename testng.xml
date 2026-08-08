@@ -2,8 +2,22 @@
 
 <suite name="OpenCart Suite">
 
-    <test name="OpenCart Tests">
+    <test name="OpenCart Tests" >
+		
+	<!--	<groups>
+			<run>
+				<include name="">
+					
+				</include>
+			</run>
+		</groups> -->
+		
         <classes>
+			<class name="com.opencart.testcases.TC001_UserTest"/>
+            <class name="com.opencart.testcases.TC002_InvalidRegistrationTest"/>
+            <class name="com.opencart.testcases.TC003_UserLoginTest"/>
+            <class name="com.opencart.testcases.TC004_SearchAndAddToCartTest"/>
+			
         </classes>
     </test>
 

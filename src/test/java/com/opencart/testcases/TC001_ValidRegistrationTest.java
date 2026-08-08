@@ -6,10 +6,10 @@ import org.testng.annotations.Test;
 import com.opencart.base.BaseClass;
 import com.opencart.pages.RegisterPage;
 
-public class TC001_UserTest extends BaseClass {
+public class TC001_ValidRegistrationTest extends BaseClass {
 
     @Test
-    public void verifyRegister() {
+    public void verifyValidRegistration() {
 
         RegisterPage rp = new RegisterPage(driver);
 

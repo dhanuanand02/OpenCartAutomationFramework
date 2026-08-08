@@ -6,10 +6,10 @@ import com.opencart.base.BaseClass;
 import com.opencart.pages.LoginPage;
 import com.opencart.pages.SearchPage;
 
-public class TC004_verifyCompletePurchaseFlow extends BaseClass {
+public class TC004_CompletePurchaseFlow extends BaseClass {
 
     @Test
-    public void placeOrderTest() {
+    public void VerifyCompletePurchaseFlow() {
 
         SearchPage checkout = new SearchPage(driver);
 
@@ -53,11 +53,11 @@ public class TC004_verifyCompletePurchaseFlow extends BaseClass {
 
 //checkout.selectBankTransfer();
 
-      checkout.acceptTerms();
+        checkout.acceptTerms();
 
-      checkout.clickPaymentContinue();
+        checkout.clickPaymentContinue();
 
-      checkout.clickConfirmOrder();
+        checkout.clickConfirmOrder();
   }
 }
 
