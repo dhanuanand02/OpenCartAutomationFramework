@@ -3,13 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.opencart.testcases.TC004_CompletePurchaseFlow">
+      <class name="com.opencart.testcases.TC006_EmptyLoginFieldTest">
         <methods>
           <include name="tearDown"/>
           <include name="setup"/>
-          <include name="VerifyCompletePurchaseFlow"/>
+          <include name="VerifyLoginWithEmptyFields"/>
         </methods>
-      </class> <!-- com.opencart.testcases.TC004_CompletePurchaseFlow -->
+      </class> <!-- com.opencart.testcases.TC006_EmptyLoginFieldTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

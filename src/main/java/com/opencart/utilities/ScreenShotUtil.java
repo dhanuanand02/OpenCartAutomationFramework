@@ -13,16 +13,19 @@ public class ScreenShotUtil {
     public static void takeScreenshot(WebDriver driver, String name) {
 
         try {
+
             TakesScreenshot ts = (TakesScreenshot) driver;
 
             File source = ts.getScreenshotAs(OutputType.FILE);
 
-            File destination = new File( "/screenshots/" + name + ".png");
-                   
+            File destination = new File("./screenshots/" + name + ".png");
 
             FileUtils.copyFile(source, destination);
 
+            System.out.println("Screenshot taken");
+
         } catch (IOException e) {
+
             e.printStackTrace();
         }
     }

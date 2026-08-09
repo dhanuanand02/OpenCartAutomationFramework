@@ -2,31 +2,24 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2026-08-09T01:20:14 IST" name="Default suite" finished-at="2026-08-09T01:20:50 IST" duration-ms="36199">
+  <suite started-at="2026-08-10T00:11:37 IST" name="Default suite" finished-at="2026-08-10T00:11:58 IST" duration-ms="21157">
     <groups>
     </groups>
-    <test started-at="2026-08-09T01:20:14 IST" name="Default test" finished-at="2026-08-09T01:20:50 IST" duration-ms="36199">
-      <class name="com.opencart.testcases.TC004_CompletePurchaseFlow">
-        <test-method is-config="true" signature="setup()[pri:0, instance:com.opencart.testcases.TC004_CompletePurchaseFlow@7d0b7e3c]" started-at="2026-08-09T01:20:14 IST" name="setup" finished-at="2026-08-09T01:20:31 IST" duration-ms="16880" status="PASS">
+    <test started-at="2026-08-10T00:11:37 IST" name="Default test" finished-at="2026-08-10T00:11:58 IST" duration-ms="21157">
+      <class name="com.opencart.testcases.TC009_GuestWishlistTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.opencart.testcases.TC009_GuestWishlistTest@6e9175d8]" started-at="2026-08-10T00:11:37 IST" name="setup" finished-at="2026-08-10T00:11:47 IST" duration-ms="10119" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="VerifyCompletePurchaseFlow()[pri:0, instance:com.opencart.testcases.TC004_CompletePurchaseFlow@7d0b7e3c]" started-at="2026-08-09T01:20:31 IST" name="VerifyCompletePurchaseFlow" finished-at="2026-08-09T01:20:49 IST" duration-ms="18483" status="PASS">
+        <test-method signature="verifyWishlistWithoutLogin()[pri:0, instance:com.opencart.testcases.TC009_GuestWishlistTest@6e9175d8]" started-at="2026-08-10T00:11:47 IST" name="verifyWishlistWithoutLogin" finished-at="2026-08-10T00:11:58 IST" duration-ms="10548" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- VerifyCompletePurchaseFlow -->
-        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.opencart.testcases.TC004_CompletePurchaseFlow@7d0b7e3c]" started-at="2026-08-09T01:20:49 IST" name="tearDown" finished-at="2026-08-09T01:20:50 IST" duration-ms="741" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=VerifyCompletePurchaseFlow status=SUCCESS method=TC004_CompletePurchaseFlow.VerifyCompletePurchaseFlow()[pri:0, instance:com.opencart.testcases.TC004_CompletePurchaseFlow@7d0b7e3c] output={null}]]]>
-              </value>
-            </param>
-          </params>
+        </test-method> <!-- verifyWishlistWithoutLogin -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.opencart.testcases.TC009_GuestWishlistTest@6e9175d8]" started-at="2026-08-10T00:11:58 IST" name="tearDown" finished-at="2026-08-10T00:11:58 IST" duration-ms="400" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- com.opencart.testcases.TC004_CompletePurchaseFlow -->
+      </class> <!-- com.opencart.testcases.TC009_GuestWishlistTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
